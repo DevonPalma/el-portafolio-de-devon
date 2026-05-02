@@ -1,5 +1,5 @@
 **Mi Travesía en la clase de español: SPAN 1110**  
-**Devon Devon**  
+**Devon Palma**  
 **SPAN 1110**  
 **Spring 2026**
 
