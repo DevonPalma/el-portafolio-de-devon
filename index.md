@@ -57,4 +57,4 @@
 
 ## Reflexión final: Destino de mi travesía
 
-This section will include my final reflection about my progress, challenges, and growth in Spanish during the semester.
+TODO: Final reflection
