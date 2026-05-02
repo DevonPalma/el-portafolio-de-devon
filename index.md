@@ -22,20 +22,38 @@
 
 ## Mis logros
 
-### Escuchar y leer
-- I can understand basic Spanish instructions.
-- I can read and understand simple sentences in Spanish.
+<div class="logros-grid">
+  <div class="logro-card logro-read">
+    <h3>Escuchar y leer</h3>
+    <ul>
+      <li>I can understand basic Spanish instructions.</li>
+      <li>I can read and understand simple sentences in Spanish.</li>
+    </ul>
+  </div>
 
-### Hablar
-- I can introduce myself in Spanish.
-- I can ask and answer simple questions.
+  <div class="logro-card logro-speak">
+    <h3>Hablar</h3>
+    <ul>
+      <li>I can introduce myself in Spanish.</li>
+      <li>I can ask and answer simple questions.</li>
+    </ul>
+  </div>
 
-### Escribir
-- I can write simple sentences about myself.
-- I can describe basic information in Spanish.
+  <div class="logro-card logro-write">
+    <h3>Escribir</h3>
+    <ul>
+      <li>I can write simple sentences about myself.</li>
+      <li>I can describe basic information in Spanish.</li>
+    </ul>
+  </div>
 
-### Al respetar y apreciar otras personas y culturas
-En esta clase he aprendido que es importante respetar y apreciar otras culturas. También he aprendido que hay muchas diferencias y similitudes entre culturas.
+  <div class="logro-card logro-culture">
+    <h3>Al respetar y apreciar otras personas y culturas</h3>
+    <p>
+      En esta clase he aprendido que es importante respetar y apreciar otras culturas. También he aprendido que hay muchas diferencias y similitudes entre culturas.
+    </p>
+  </div>
+</div>
 
 ## Reflexión final: Destino de mi travesía
 

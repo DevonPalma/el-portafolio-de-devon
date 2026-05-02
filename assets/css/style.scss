@@ -1,7 +1,4 @@
----
----
-
-@import "{{ site.theme }}";
+--- --- @import "{{ site.theme }}";
 
 .about-container {
   display: flex;
@@ -42,5 +39,91 @@ h3 {
   .about-photo {
     max-width: 100%;
     width: 320px;
+  }
+}
+
+ul {
+  list-style: none;
+  /* remove default bullets */
+  padding-left: 0;
+}
+
+li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+/* little diamond */
+li::before {
+  content: "◆";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #d4af37;
+  /* gold-ish */
+  font-size: 0.8rem;
+}
+
+
+
+
+.logros-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.logro-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-top: 4px solid #e0b84c;
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.logro-card h3 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+.logro-card ul {
+  margin-bottom: 0;
+}
+
+.logro-read {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.logro-speak {
+  grid-column: 2 / span 2;
+  grid-row: 2;
+}
+
+.logro-write {
+  grid-column: 3 / span 2;
+  grid-row: 3;
+}
+
+.logro-culture {
+  grid-column: 1 / span 4;
+  grid-row: 4;
+}
+
+@media (max-width: 900px) {
+  .logros-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .logro-read,
+  .logro-speak,
+  .logro-write,
+  .logro-culture {
+    grid-column: 1;
+    grid-row: auto;
   }
 }
