@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.about-container {
+  display: flex;
+  align-items: center; /* vertical centering */
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.about-image img {
+  max-width: 220px;
+  border-radius: 12px;
+}
+
+.about-text {
+  text-align: left;
+  flex: 1;
+}
