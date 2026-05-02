@@ -1,8 +1,3 @@
-**Mi Travesía en la clase de español: SPAN 1110**  
-**Devon Palma**  
-**SPAN 1110**  
-**Spring 2026**
-
 ## Un poquito sobre mí
 
 <div class="about-container">
